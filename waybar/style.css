@@ -1,0 +1,113 @@
+window#waybar {
+    background: #3b4252;
+    /* border-bottom: 3px solid rgba(100, 114, 125, 0.5); */
+    color: white;
+    border-radius: 20px;
+    /* border: 8px solid #5e81ac; */
+}
+
+#workspaces {
+  border: 0px solid #4c566a;
+  border-radius: 20px;
+  background: #4c566a;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 9px;
+}
+
+#workspaces button {
+  padding-left: 10px;
+  padding-right: 10px;
+  background: transparent;
+  color: #eceff4;
+  font-size: 15px;
+}
+
+tooltip {
+  background: #434c5e;
+  /* border: 1px solid rgba(100, 114, 125, 0.5) */;
+}
+
+tooltip label {
+  color: #d8dee9;
+}
+
+#workspaces button.empty {
+  color: #9399A5;
+}
+
+#workspaces button.active {
+  color: #a3be8c;
+}
+
+#workspaces button.urgent {
+  color: #bf616a;
+}
+
+#custom-Archmenubutton {
+  padding-left: 20px;
+  padding-right: 25px;
+  border-radius: 20px;
+  margin: 4px;
+  font-size: 20px;
+  background: #d8dee9;
+  color: #5e81ac;
+}
+
+/* .modules-right { */
+/*   background: #242933; */
+/*   margin: 4px; */
+/*   border-radius: 20px; */
+/*   padding-right: 15px; */
+/*   padding-left: 15px; */
+/* } */
+
+
+#window {
+  color: #d8dee9;
+  font-size: 16px;
+}
+
+#custom-powerbutton {
+  background: #bf616a;
+  color: #d8dee9;
+  border-radius: 20px;
+  margin: 4px;
+  padding-left: 20px;
+  padding-right: 25px;
+  font-size: 20px;
+}
+
+#rest {
+  background: #303643;
+  border-radius: 20px;
+  margin: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 8px;
+}
+
+#clock {
+  padding-left: 25px;
+  color: #ebcb8b;
+}
+
+#wireplumber {
+  padding-left: 25px;
+  color: #81a1c1;
+}
+
+#language {
+  padding-left: 25px;
+  color: #88c0d0;
+}
+
+#tray {
+  padding-right: 10px;
+}
+
+#custom-clipboard {
+  color: #8fbcbb;
+}
